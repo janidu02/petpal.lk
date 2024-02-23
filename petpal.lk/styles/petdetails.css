@@ -1,0 +1,218 @@
+/* Add your existing CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    /*background-image: url('https://images.pexels.com/photos/2732035/pexels-photo-2732035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');*/
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+.container1 {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 5px;
+    margin-left: 20%;
+    background-color: #d2c8c8;
+}
+
+.container1 header {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #090909;
+}
+
+.container1 form {
+    position: relative;
+    margin-top: 15px;
+    min-height: 400px;
+    background-color: #9c9292;
+    padding: 15px;
+}
+
+.container1 form .title {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #121111;
+}
+
+.container1 form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d0d0d;
+    float: left;
+}
+
+.input-field input,
+select {
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #111111;
+    border-radius: 5px;
+    border: 1px solid #6d6666;
+    padding: 0 20px;
+    height: 42px;
+
+}
+
+.input-field select {
+    background-color: #fff;
+}
+
+.input-field input[type="date"] {
+    padding: 20px;
+}
+
+input[type="submit"],
+button {
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b894;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #009f74;
+}
+
+/* input[type="reset"],
+  button {
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a51e30;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  input[type="reset"]:hover,
+  button:hover {
+    background-color: #610404;
+  } */
+
+.nav {
+    padding: 20px;
+    background-color: #ededed;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c0b0b;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    color: #00b894;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .container1 {
+        margin: 5px;
+        margin-left: 5%;
+    }
+
+    .menu-icon {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: #ededed;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+.box {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: center;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}

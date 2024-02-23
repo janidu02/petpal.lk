@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+body {
+	font-family: "poppins", Alien Encounters Solid;
+	background-image: url('https://images.unsplash.com/photo-1546377791-2e01b4449bf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=80"');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+
+.tips-poster {
+	background-color: #33333300;
+	width: 100%;
+	height: fit-content;
+
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.tips-column {
+	background-color: rgba(255, 0, 0, 0);
+	width: 150%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	align-items: center;
+}
+
+.tips-column p,h4{
+	color: #000000;
+}
+
+.tips-text {
+	background-color: rgba(0, 0, 255, 0);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+}
+
+.tips-poster h1 {
+	font-weight: bolder;
+	color: #f8f8dc;
+	
+}
+
+
+.tipimg{
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+}
+
+.tip1{
+	margin-top: 1rem;
+}
+
+.tip1,
+.tip2,
+.tip3,
+.tip4,
+.tip5 {
+	background-color: #f8f8dccd;
+	height:fit-content;
+	width: 95%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	
+}
+
+
+@media (max-width: 850px) {
+	.tips-poster{
+		display: flex;
+	flex-direction: column;
+	}
+
+	.tips-column {
+		width: 100%;
+	}
+}
+

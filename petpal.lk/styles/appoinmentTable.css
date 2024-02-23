@@ -1,0 +1,125 @@
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+	height: fit-content;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	
+	
+}
+
+.content-table thead tr {
+    background-color: #8b4513;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+	border: 1px solid black;
+      padding: 8px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #8b4513;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #8b4513;
+}
+
+
+.tablecontain{
+	width: 95%;
+	min-height: 100vh;
+	margin: 3.5rem 2rem 2rem 2rem;
+	background-color: #f5f5dc;
+	border-radius: 5px 5px 0 0;
+	
+	
+  }
+
+  .tablecontain-inner{
+	margin-top: 2rem;
+  }
+  .dlst{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .butt1{
+	padding: 0.6rem 1.3rem;
+	background-color:#8b451300;
+	border: 1px solid #0e0d0d;
+	font-size: 0.95rem;
+	color: #c90000;
+	line-height: 1;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+	margin: 0;
+ }
+
+ .butt1:hover{
+	background-color: #d6cd2a;
+	color: #f5f5dc;
+	
+ }
+
+ .butt2{
+	padding: 0.6rem 1.3rem;
+	background-color:#8b451300;
+	border: 1px solid #0e0e0e;
+	font-size: 0.95rem;
+	color: #c90000;
+	line-height: 1;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+	margin: 0;
+ }
+
+ .butt2:hover{
+	background-color: #e06a46;
+	color: #f5f5dc;
+	
+ }
+
+ .bck{
+    text-align: center;
+    padding: 0.6rem 1.3rem;
+	background-color:#8b451300;
+	border: 1px solid #0e0e0e;
+	font-size: 0.95rem;
+	color: #c90000;
+	line-height: 1;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-left:47%;
+    margin-right: 47%;
+    
+ }
+ .bck:hover{
+	background-color: #40e840;
+	color: #f5f5dc;
+ }
+	
